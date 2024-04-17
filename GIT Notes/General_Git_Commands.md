@@ -44,7 +44,7 @@
 
 <br>
 
-###### <ins>Add Commands</ins>
+###### <ins>Commit Commands</ins>
 
 + **$ git commit** _(Commits the files from the staging phase or area with a custom commit message by opening a configured text editor and algorithmic created unique commit id)_
 
