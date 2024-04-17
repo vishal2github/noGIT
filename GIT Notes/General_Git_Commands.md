@@ -6,13 +6,13 @@
 
 ###### <ins>Help/Status/Clone/Touch Commands</ins>
 
-**$ git** _(Shows the git manual. Alternative command: $git --help)_
++ **$ git** _(Shows the git manual. Alternative command: $git --help)_
 
-**$ git status** _(Checks the state of the working directory)_
++ **$ git status** _(Checks the state of the working directory)_
 
-**$ git clone <mark>_URL repoName_</mark>** _(Pulls the duplicated repository of an intended remote repository from the remote server's URL, and saves it as a local working directory with a custom repository name if written after the URL)_
++ **$ git clone <mark>_URL repoName_</mark>** _(Pulls the duplicated repository of an intended remote repository from the remote server's URL, and saves it as a local working directory with a custom repository name if written after the URL)_
 
-**$ git touch .gitignore** _(Creates a blank file with the name '.gitignore'. After adding and thus track-starting this file, it will ignore any kind of directory, or files that are saved in it. It can be used in all kinds of directories and files with the same name or extension)_
++ **$ git touch .gitignore** _(Creates a blank file with the name '.gitignore'. After adding and thus track-starting this file, it will ignore any kind of directory, or files that are saved in it. It can be used in all kinds of directories and files with the same name or extension)_
 
 <br>
 
