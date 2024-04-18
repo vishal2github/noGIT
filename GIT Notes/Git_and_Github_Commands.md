@@ -8,11 +8,11 @@ Firstly, after installing the git software, we run the below commands to set up 
 
 ###### <ins>Git Configuration</ins>
 
-+ **$ git config --global user.name "<mark>_your_name_</mark>"** *(Configures a name)*
++ **$ git config --global user.name "<span style="color:lightgray">_your_name_</span>"** *(Configures a name)*
 
-+ **$ git config --global user.email "<mark>_your_email_</mark>"** *(Configures an email)*
++ **$ git config --global user.email "<span style="color:lightgray">_your_email_</span>"** *(Configures an email)*
 
-+ **$ git config --global core.editor "<mark>_editor_name_</mark>"** *(Configures a file editor)*
++ **$ git config --global core.editor "<span style="color:lightgray">_editor_type_</span>"** *(Configures a file editor)*
 
 <br>
 
@@ -30,7 +30,7 @@ Firstly, after installing the git software, we run the below commands to set up 
 
 ###### <ins>Alias Configuration</ins>
 
-+ **$ git config --global alias.<mark>_desired_Name_ _command_Name_</mark>** *(Sets alias, second name for command)*
++ **$ git config --global alias.<span style="color:lightgray">_desired_name_ _command_name_</span>** *(Sets alias, second name for command)*
 
 It can be used to shorten the long commands. Ex: $ git config --global alias.st status. Now 'status' command will turn in 'st' command name. For the commands with spaces, use quotes as usual.
 
@@ -46,9 +46,9 @@ git-active directory. The commands are as follows:
 
 ###### <ins>Git Initialization</ins>
 
-+ **$ mkdir <mark>_myDir_</mark>** _(Creates a directory)_
++ **$ mkdir <span style="color:lightgray">_my_dir_</span>** _(Creates a directory)_
 
-+ **$ cd <mark>_myDir_</mark>** _(Enters into a directory)_
++ **$ cd <span style="color:lightgray">_my_dir_</span>** _(Enters into a directory)_
 
 + **$ git init** _(Initialize the git into the current directory)_
 
@@ -72,7 +72,7 @@ the git feature on the specified directory, hence completely removing the ‘.gi
 
 **(I) Initial Process:** Create a new remote repository on git-hub after creating an account on git-hub.
 
-+ **$ git remote add origin <mark>_Remote-Repo-URL_</mark>** _(To link the remote repository with local repository)_
++ **$ git remote add origin <span style="color:lightgray">_remote-repo-URL_</span>** _(To link the remote repository with local repository)_
 
 + **$ git remote** _(Displays the remote repository's remote name)_
 
@@ -84,4 +84,4 @@ the git feature on the specified directory, hence completely removing the ‘.gi
 
 <strong>The steps have been mentioned on the github website itself.</strong>
 
-+ **$ git push -u origin _main/master_** _(Pushes the current local repository modified content, i.e., snapshot, to the intended remote repository)_
++ **$ git push -u origin <span style="color:lightgray">_main/master_</span>** _(Pushes the current local repository modified content, i.e., snapshot, to the intended remote repository)_
