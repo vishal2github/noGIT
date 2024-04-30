@@ -2,11 +2,11 @@
 
 <br>
 
-### 1. Git Configuration and Confirmation (Name, email, and editor)
+**1. Git Configuration and Confirmation (Name, email, and editor)**
 
 Firstly, after installing the git software, we run the below commands to set up the user's name and email for the communication and file transfer purpose. The commands are as follows:
 
-###### <ins>Git Configuration</ins>
+<ins>Git Configuration</ins>
 
 + **$ git config --global user.name "<span style="color:lightgray">_your_name_</span>"** *(Configures a name)*
 
@@ -16,7 +16,7 @@ Firstly, after installing the git software, we run the below commands to set up 
 
 <br>
 
-###### <ins>Git Confirmation</ins>
+<ins>Git Confirmation</ins>
 
 + **$ git config user.name** *(Displays the name)*
 
@@ -28,7 +28,7 @@ Firstly, after installing the git software, we run the below commands to set up 
 
 <br>
 
-###### <ins>Alias Configuration</ins>
+<ins>Alias Configuration</ins>
 
 + **$ git config --global alias.<span style="color:lightgray">_desired_name_ _command_name_</span>** *(Sets alias, second name for command)*
 
@@ -38,13 +38,13 @@ It can be used to shorten the long commands. Ex: $ git config --global alias.st 
 <hr>
 <br>
 
-### 2. Git Initialization and deletion (Specific directory)
+**2. Git Initialization and deletion (Specific directory)**
 
 Before start syncing our files, we first need to create a specific custom directory, upon which the git feature
 is to be implemented. That is first we create a directory, then we initialize the process of git in it to make it a
 git-active directory. The commands are as follows:
 
-###### <ins>Git Initialization</ins>
+<ins>Git Initialization</ins>
 
 + **$ mkdir <span style="color:lightgray">_my_dir_</span>** _(Creates a directory)_
 
@@ -54,7 +54,7 @@ git-active directory. The commands are as follows:
 
 <br>
 
-###### <ins>Git Deletion and Index lock error</ins>
+<ins>Git Deletion and Index lock error</ins>
 
 Similarly, a git-activated directory can be git-de-active by simply running the following command to withdraw
 the git feature on the specified directory, hence completely removing the ‘.git’ folder from the directory.
@@ -68,7 +68,7 @@ the git feature on the specified directory, hence completely removing the ‘.gi
 <hr>
 <br>
 
-### 3. Git-hub Remote Commands
+**3. Git-hub Remote Commands**
 
 **(I) Initial Process:** Create a new remote repository on git-hub after creating an account on git-hub.
 

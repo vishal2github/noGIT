@@ -1,10 +1,10 @@
 # GENERAL COMMANDS OF GIT
 
-### (These commands help in the manipulation of the file)
+### _(These commands help in the manipulation of the file)_
 
 <br>
 
-###### <ins>Help/Status/Clone/Touch Commands</ins>
+**Help/Status/Clone/Touch Commands**
 
 + **$ git** _(Shows the git manual. Alternative command: $git --help)_
 
@@ -16,7 +16,7 @@
 
 <br>
 
-###### <ins>Log Commands</ins>
+**Log Commands**
 
 + **$ git log** _(Shows the log of every commit performed)_
 
@@ -34,7 +34,7 @@
 
 <br>
 
-###### <ins>Add Commands</ins>
+**Add Commands**
 
 + **$ git add .** _(Adds all the files simultanously)_
 
@@ -44,7 +44,7 @@
 
 <br>
 
-###### <ins>Commit Commands</ins>
+**Commit Commands**
 
 + **$ git commit** _(Commits the files from the staging phase or area with a custom commit message by opening a configured text editor and algorithmic created unique commit id)_
 
@@ -56,7 +56,7 @@
 
 <br>
 
-###### <ins>Branch Commands</ins>
+**Branch Commands**
 
 + **$ git branch** _(Displays all the available branches)_
 
@@ -76,7 +76,7 @@
 
 <br>
 
-###### <ins>Checkout Commands</ins>
+**Checkout Commands**
 
 + **$ git checkout <span style="color:lightgray">_Filename_</span>** _(Un-modifies the file state and revert it to its previous state)_
 
@@ -88,7 +88,7 @@
 
 <br>
 
-###### <ins>Difference Commands</ins>
+**Difference Commands**
 
 + **$ git diff** _(Shows the difference in the files between the staging area and the working area)_
 
@@ -96,7 +96,7 @@
 
 <br>
 
-###### <ins>Remove/Delete Commands</ins>
+**Remove/Delete Commands**
 
 + **$ git rm <span style="color:lightgray">_Filename_</span>** _(Deletes the intended files with the automatic staging of the the delete file)_
 
@@ -106,7 +106,7 @@
 
 <br>
 
-###### <ins>Move Commands</ins>
+**Move Commands**
 
 + **$ git mv <span style="color:lightgray">_Filename1 Filename2_</span>** _(Moves the file. Renames the file with automatic staging the renamed file)_
 
@@ -114,7 +114,7 @@
 
 <br>
 
-###### <ins>Restore Commands</ins>
+**Restore Commands**
 
 + **$ git restore --staged <span style="color:lightgray">_Filename_</span>** _(Un-stages the file from the staged state)_
 
