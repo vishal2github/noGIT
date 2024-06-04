@@ -2,7 +2,7 @@
 
 <br>
 
-**1. Git Configuration and Confirmation (Name, email, and editor)**
+**1. Git Configuration and Confirmation (Name, email, editor, and default-branch-name)**
 
 Firstly, after installing the git software, we run the below commands to set up the user's name and email for the communication and file transfer purpose. The commands are as follows:
 
@@ -13,6 +13,8 @@ Firstly, after installing the git software, we run the below commands to set up 
 + **$ git config --global user.email "<span style="color:lightgray">_your_email_</span>"** *(Configures an email)*
 
 + **$ git config --global core.editor "<span style="color:lightgray">_editor_type_</span>"** *(Configures a file editor)*
+
++ **$ git config --global init.defaultBranch <span style="color:lightgray">_default_branch_name_</span>** *(Configures the branch's default name)*
 
 <br>
 
